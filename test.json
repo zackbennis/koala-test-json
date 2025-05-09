@@ -1,0 +1,28 @@
+{
+  "pin": "4321",
+  "allowed_applications": [
+    "com.android.chrome",
+    "com.google.android.youtube"
+  ],
+  "allowed_websites": [
+    {
+      "name": "Koala Kiosk Project",
+      "url": "https://github.com/your-username/koala-kiosk"
+    },
+    {
+      "name": "Android Developers",
+      "url": "https://developer.android.com"
+    }
+  ],
+  "fullscreen_mode": true,
+  "single_app_mode": false,
+  "startup_app_or_website": "com.android.chrome",
+  "remote_config_url": "https://your-server.com/path/to/your_koala_config.json",
+  "remote_config_git_repo_url": "https://github.com/your-username/koala-kiosk-config.git",
+  "remote_config_git_branch": "main",
+  "remote_config_git_file_path": "prod/koala_config.json",
+  "remote_config_auth_username": "your_username",
+  "remote_config_auth_token": "your_personal_access_token_or_password",
+  "config_update_interval_hours": 2,
+  "allow_local_override_critical": false
+}
