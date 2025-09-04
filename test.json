@@ -14,7 +14,7 @@
       "url": "https://developer.android.com"
     }
   ],
-  "config_update_interval_minutes": 60,
+  "config_update_interval_minutes": 1,
   "fullscreen_mode": true,
   "pin": "0000",
   "remote_config_url": "https://raw.githubusercontent.com/zackbennis/koala-test-json/refs/heads/main/test.json",
