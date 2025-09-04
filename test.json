@@ -15,7 +15,7 @@
     }
   ],
   "fullscreen_mode": true,
-  "single_app_mode": false,
+  "single_app_mode": true,
   "startup_app_or_website": "com.android.chrome",
   "remote_config_url": "https://your-server.com/path/to/your_koala_config.json",
   "remote_config_git_repo_url": "https://github.com/your-username/koala-kiosk-config.git",
